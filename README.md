@@ -1,2 +1,2 @@
-<strong># PLCTech.github.io</strong>
-<strong>PLC Projects</strong>
+# PLCTech.github.io
+PLC Projects
