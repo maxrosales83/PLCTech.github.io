@@ -1,26 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Max Rosales — PLC Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin:0; padding:0; line-height:1.6; color:#333; background:#f8f8f8; }
+    header { background:#2a2a2a; color:#fff; padding:40px 20px; text-align:center; }
+    header h1 { margin:0; font-size:2.5em; }
+    header p { margin:10px 0 0; font-size:1.2em; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; font-weight:600; }
+    section { padding:60px 20px; max-width:900px; margin:0 auto; }
+    h2 { font-size:2em; margin-bottom:20px; border-bottom:2px solid #eee; padding-bottom:10px; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
+    .project { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .project img { width:100%; border-radius:4px; margin-bottom:10px; }
+    footer { background:#2a2a2a; color:#fff; text-align:center; padding:40px 20px; }
+    footer a { color:#ffcc00; text-decoration:none; font-weight:600; }
+  </style>
+</head>
+<body>
+
 <header>
-  <h1>[Your Name] — PLC Projects</h1>
-  <p>Industrial Automation • PLC Design • Control Systems</p>
-  <nav><a href="#about">About</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a></nav>
+  <h1>Max Rosales</h1>
+  <p>Industrial Automation & PLC Projects</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <section id="about">
   <h2>About Me</h2>
-  <p>[Short professional bio]</p>
+  <p>Hi, I’m Max Rosales, a PLC and automation engineer specializing in Allen-Bradley and Siemens systems. I design, program, and troubleshoot PLCs to optimize production, reduce downtime, and improve system reliability. My expertise includes ladder logic, structured text, HMI design, and industrial communication protocols.</p>
 </section>
 
 <section id="projects">
   <h2>Featured Projects</h2>
-  <!-- repeat project blocks -->
-  <article>
-    <h3>Project Title</h3>
-    <img src="project-screenshot.jpg" alt="">
-    <p>[Problem → Solution → Outcome]</p>
-  </article>
+  <div class="projects">
+    <!-- Project 1 -->
+    <div class="project">
+      <img src="project1-screenshot.jpg" alt="Project 1 Screenshot">
+      <h3>Automated Packaging Line Upgrade</h3>
+      <p><strong>Challenge:</strong> Frequent stoppages due to sensor misalignment.<br>
+      <strong>Solution:</strong> Redesigned ladder logic with diagnostic feedback + optimized HMI screens.<br>
+      <strong>Result:</strong> 25% reduction in downtime and real-time alerts.</p>
+    </div>
+    <!-- Project 2 -->
+    <div class="project">
+      <img src="project2-diagram.jpg" alt="Project 2 Diagram">
+      <h3>Industrial Conveyor Control System</h3>
+      <p><strong>Challenge:</strong> Manual monitoring caused delays and errors.<br>
+      <strong>Solution:</strong> Implemented PLC-controlled sensors with automated start/stop routines.<br>
+      <strong>Result:</strong> Increased throughput by 30% and improved safety compliance.</p>
+    </div>
+    <!-- Add more projects by copying the block above -->
+  </div>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>Email: [you@example.com]</p>
-  <p>LinkedIn: [link]</p>
+  <p>Email: <a href="mailto:max@example.com">max@example.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/maxrosales/" target="_blank">linkedin.com/in/maxrosales</a></p>
+  <p>GitHub: <a href="https://github.com/maxrosales83" target="_blank">github.com/maxrosales83</a></p>
 </section>
+
+<footer>
+  <p>© 2026 Max Rosales — PLC Portfolio</p>
+</footer>
+
+</body>
+</html>
